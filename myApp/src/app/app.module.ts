@@ -22,7 +22,7 @@ import { FeedPageModule } from '../pages/feed/feed.module';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
     FeedPageModule
   ],
   bootstrap: [IonicApp],
